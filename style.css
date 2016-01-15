@@ -1,0 +1,4 @@
+body{
+    background: linear-gradient(blue 50%, pink 50%);
+    animation: animatedBackground 40s linear infinite;
+}
