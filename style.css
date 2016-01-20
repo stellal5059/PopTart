@@ -13,9 +13,26 @@ html {
     width: 100%;
     position: absolute;
 }
-#poptart1{
-    
+
+#poptart1 {
+    margin: auto;
+    position: absolute;
+    display: block;
+    height: 600px;
+    animation: poptart1 2s linear 3s normal;
 }
-#poptart2{
+
+@keyframes poptart1 {
+    from {
+        left: 100px;
+    }
+    to {
+        left: 0px;
+    }
     
-}
+    #poptart2 {
+        position: absolute;
+        display: block;
+        height: 100px;
+        animation: poptart2 5s linear 5s normal;
+    }
