@@ -14,11 +14,18 @@ html {
     position: absolute;
 }
 #poptart1{
-    transition-duration:2s;
+  
     position:absolute;
+    display:block;
+    height:600px;
+animation: poptart1 5s linear 0s normal;
+    
+}
+#poptart2{
+    position:absolute;
+    display:block;
+    height:600px;
+    animation:poptart2 5s linear 5s normal;
+    
+}
 
-}
-img:hover{
-    transform:rotate(90deg);
-    align-self:center;
-}
