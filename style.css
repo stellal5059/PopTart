@@ -1,10 +1,15 @@
 body {
     background: linear-gradient(to left, #FF90C7, #AE78E8, #84A8FF);
 height:100%;
-    
+ 
 }
 
 html {
     height: 100%;
+    width:100%;
     position:absolute;
+}
+#sprinkles{
+    height:100%;
+    width:100%;
 }
