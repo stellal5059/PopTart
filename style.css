@@ -14,17 +14,22 @@ html {
     position: absolute;
 }
 #poptart1{
-  
+    margin: auto;
     position:absolute;
     display:block;
     height:600px;
-animation: poptart1 5s linear 0s normal;
+    animation: poptart1 2s linear 3s normal;
     
 }
+@keyframes poptart1{
+    from{ left:100px;}
+    to{left:0px;
+}
 #poptart2{
+ 
     position:absolute;
     display:block;
-    height:600px;
+    height:100px;
     animation:poptart2 5s linear 5s normal;
     
 }
