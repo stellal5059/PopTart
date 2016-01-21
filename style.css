@@ -3,20 +3,20 @@ body {
     height: 100%;
 }
 
-html {
-    height: 100%;
+html { /*How big the page is even without the content*/
+    height: 100%;    
     width: 100%;
 }
 
-#sprinkles {
+#sprinkles { /*Gif in the back*/
     height: 100%;
     width: 100%;
-    position: absolute;
+    position: absolute; /*takes the gif out of the flow and puts it behind everything*/
 }
 
-#poptart1 {
+#poptart1 { /*poptart box*/
     margin: auto;
-    padding-left:50%;
+   float:left;
     position: absolute;
     top: 0px;
     float: left;
@@ -25,32 +25,32 @@ html {
     
 }
 
-#poptart1:hover {
+#poptart1:hover { /*what happens when you hover over the potart box*/
     animation: poptart1 1s ease;
    
 }
 
-@keyframes poptart1 {
-    from {
+@keyframes poptart1 { /*where the poptart box goes*/
+    from { /*where it starts*/
         left: 0px;
     }
-    to {
+    to { /*goes to the right */
         right: 1000px;
     }
 }
 
 
 
-#poptart3 {
+#poptart3 { /*Poptart behind the box*/
     /*margin: auto;*/
     padding-left:50%;
     position: relative;
     display: block;
-    height: 300px;
+    height: 300px;/*size or other poptart*/
     
 }
 
-h1 {
+h1 { /*words "it wasn't blueberry"*/
     position: relative;
     display: block;
     z-index: -1;
