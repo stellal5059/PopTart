@@ -1,4 +1,4 @@
-body {
+body { /*used for gradient background*/
     background: linear-gradient(to left, #FF90C7, #AE78E8, #84A8FF);
     height: 100%;
 }
@@ -17,10 +17,10 @@ html {
 
 #poptart1 { /*poptart box*/
     margin: auto;
-    float: left;
-    position: absolute;
+    float: left; /*will float to the left */
+    position: absolute;/*will take poptart box out of flow*/
     top: 0px; /*puts img on top of the second img, which is behind it*/
-    height: 500px;
+    height: 500px; /*original size of the poptart box*/
     transition: height 1s; /*when mouse if hovering, img will grow after one sec*/
 }
 
@@ -41,7 +41,7 @@ html {
 }
 
 #poptart3 {
-    position: relative;
+    position: relative;/*will be placed and positioned beased on the parent element*/
     height: 300px;
     animation: rotate 2s ease 1 4s; /*poptart will rotate around to screen once for 4 secs*/
 }
@@ -57,7 +57,7 @@ html {
 
 h1 {
     /*words "it wasn't blueberry"*/
-    position: relative;
+    position: relative; /*will be placed based on parent element*/
     z-index: -1; /*places text behind the poptart box img*/
     text-shadow: 2px 2px #ff6666;
 }
