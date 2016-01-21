@@ -9,62 +9,55 @@ html {
     width: 100%;
 }
 
-#sprinkles {
-    /*Gif in the back*/
+#sprinkles { /*Gif in the back*/
     height: 100%;
     width: 100%;
-    position: absolute;
-    /*takes the gif out of the flow and puts it behind everything*/
+    position: absolute; /*takes gif out of flow and puts it behind everything*/
 }
 
-#poptart1 {
-    /*poptart box*/
+#poptart1 { /*poptart box*/
     margin: auto;
     float: left;
     position: absolute;
-    top: 0px;
-    display: block;
-    height: 600px;
+    top: 0px; /*puts img on top of the second img, which is behind it*/
+    height: 500px;
+    transition: height 1s; /*when mouse if hovering, img will grow after one sec*/
 }
 
-#poptart1:hover {
-    animation-timing-function: linear;
-    height: 600px;
-    animation: poptart1 5s linear 1s 1 normal;
+#poptart1:hover { /*when mouse is hovering over img*/
+    height: 600px; /*size gets larger*/
+    animation: poptart1 5s linear 1s 1 normal; /*& will move to the right for 5 seconds with a one sec delay*/
 }
 
 @keyframes poptart1 {
-    /*where the poptart box goes*/
     from {
-        /*where it starts*/
-        left: 0px;
+        left: 0px; /*where poptart starts*/
+
     }
     to {
-        left: 1000px;
+        left: 1000px; /*where poptart box goes*/
+
     }
 }
 
 #poptart3 {
-    /*Poptart behind the box*/
-    /*margin: auto;*/
     position: relative;
     height: 300px;
-    animation: rotate 2s ease 1 4s;
+    animation: rotate 2s ease 1 4s; /*poptart will rotate around to screen once for 4 secs*/
 }
 
 @keyframes rotate {
     from {
-        transform: rotate(0deg);
+        transform: rotate(0deg); /*poptart's beginning position, 0 degrees*/
     }
     to {
-        transform: rotate(360deg);
+        transform: rotate(360deg); /*poptart makes a full circle (rotation)*/
     }
 }
 
 h1 {
     /*words "it wasn't blueberry"*/
     position: relative;
-    display: block;
-    z-index: -1;
+    z-index: -1; /*places text behind the poptart box img*/
     text-shadow: 2px 2px #ff6666;
 }
