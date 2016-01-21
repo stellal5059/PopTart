@@ -60,9 +60,19 @@ html {
     display: block;
     height: 300px;
 }
-h1{
-  position:relative;
-  display:block;
-  z-index: -1;
-  
+
+h1 {
+    position: relative;
+    display: block;
+    z-index: -1;
+    /*animation: linear;*/
 }
+
+/*@keyframes h1 {*/
+/*    from {*/
+/*        left: 0px;*/
+/*    }*/
+/*    to {*/
+/*        right: 20px;*/
+/*    }*/
+/*}*/
