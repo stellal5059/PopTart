@@ -27,9 +27,16 @@ html {
     height: 600px;
 }
 
+#poptartDiv:hover #poptart1 {
+    /*animation goes here*/
+}
+
 #poptart1:hover {
-    animation: poptart1 5s infinite;
-    animation-timing-function: linear;
+    /*animation: poptart1 5s infinite;*/
+    /*animation-timing-function: linear;*/
+    
+    animation: poptart1 5s linear 0s infinite normal;
+    
     height: 500px;
 }
 
