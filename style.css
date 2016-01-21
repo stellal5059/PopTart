@@ -28,9 +28,9 @@ html {
 }
 
 #poptart1:hover {
-    animation: poptart1 3s ;
     animation-timing-function: linear;
     height: 600px;
+    animation: poptart1 5s linear 1s 1 normal;
 }
 
 @keyframes poptart1 {
@@ -48,17 +48,17 @@ html {
     /*Poptart behind the box*/
     /*margin: auto;*/
     position: relative;
-    display: block;
     height: 300px;
-    transition: transform 10s;
+    animation: rotate 2s ease 1 4s;
 }
 
-#poptart3:hover {
-    animation: poptart3 2s;
-}
-@keyframes poptart3{
-        transform: rotate(180deg);
-
+@keyframes rotate {
+    from {
+        transform: rotate(0deg);
+    }
+    to {
+        transform: rotate(360deg);
+    }
 }
 
 h1 {
@@ -67,5 +67,4 @@ h1 {
     display: block;
     z-index: -1;
     text-shadow: 2px 2px #ff6666;
-    /*animation: linear;*/
 }
