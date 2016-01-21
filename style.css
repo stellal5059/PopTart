@@ -22,10 +22,11 @@ html {
     float: left;
     display: block;
     height: 500px;
+    
 }
 
 #poptart1:hover {
-    animation: poptart1 5s linear;
+    animation: poptart1 1s ease;
    
 }
 
@@ -46,6 +47,7 @@ html {
     position: relative;
     display: block;
     height: 300px;
+    
 }
 
 h1 {
