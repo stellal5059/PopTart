@@ -16,6 +16,7 @@ html {
 
 #poptart1 {
     margin: auto;
+    padding-left:50%;
     position: absolute;
     top: 0px;
     float: left;
@@ -24,7 +25,8 @@ html {
 }
 
 #poptart1:hover {
-    animation: poptart1 2s linear;
+    animation: poptart1 5s linear;
+   
 }
 
 @keyframes poptart1 {
@@ -32,30 +34,15 @@ html {
         left: 0px;
     }
     to {
-        right: 20px;
+        right: 1000px;
     }
 }
 
 
-/*#poptart2 {*/
-
-
-/*    position: absolute;*/
-
-
-/*    right: 30px;*/
-
-
-/*    display: block;*/
-
-
-/*    height: 400px;*/
-
-
-/*}*/
 
 #poptart3 {
     /*margin: auto;*/
+    padding-left:50%;
     position: relative;
     display: block;
     height: 300px;
@@ -65,14 +52,6 @@ h1 {
     position: relative;
     display: block;
     z-index: -1;
+    padding-left:50%;
     /*animation: linear;*/
 }
-
-/*@keyframes h1 {*/
-/*    from {*/
-/*        left: 0px;*/
-/*    }*/
-/*    to {*/
-/*        right: 20px;*/
-/*    }*/
-/*}*/
