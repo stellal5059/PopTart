@@ -63,6 +63,7 @@ h1 {
 }
 p{
     font-family:"Courier New";
-    font-size:50px;
-    color:;
+    font-size:35px;
+    color:red;
+    text-shadow:2px 2px #ff6666;
 }
